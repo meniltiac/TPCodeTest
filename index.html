@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="TrainingPeaks Code Test">
+<meta name="author" content="Caitlin McKenna">
+<title>TrainingPeaks Code Test</title>
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/carousel.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="css/style.css" rel="stylesheet">
+<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+</head>
+<!-- NAVBAR 
+================================================== -->
+<body>
+<div class="navbar-wrapper">
+	<div class="haze">
+	</div>
+	<div class="container-fluid">
+		<div class="container main">
+			<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+				<div class="container main">
+					<div class="navbar-header">
+						<img src="images/logo.png" alt="TrainingPeaks Logo">
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Athletes</a>
+							<div class="arrow-up">
+							</div>
+							<ul class="sub-nav">
+								<li><a href="#">Header one</a></li>
+								<li><a href="#">Header two</a></li>
+								<li><a href="#">Header three</a></li>
+								<li><a href="#">Header four</a></li>
+								<li><a href="#">Header five</a></li>
+								<li><a href="#">Header six</a></li>
+							</ul>
+							</li>
+							<li><a href="#">Coaches</a></li>
+							<li><a href="#">Blog</a></li>
+						</ul>
+						<ul class="nav navbar-nav float-right">
+							<li><a href="#">Joe Smith</a></li>
+							<li class="no-bar"><a href="#">Log Out</a></li>
+							<li class="premium"><a href="#">Premium</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-8 search">
+					<input type="text" name="search" placeholder="Search">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--End .container.main -->
+</div>
+</div>
+<!-- Carousel
+    ================================================== -->
+<div id="wrapper">
+<div id="carousel">
+	<div class="carousel-item item-1">
+		<img src="images/main-1.png" alt="Train with TrainingPeaks" width="990" height="450"/>
+	</div>
+	<div class="carousel-item item-2">
+		<img src="images/main.png" alt="Train with TrainingPeaks" width="990" height="450"/>
+	</div>
+	<div class="carousel-item item-3">
+		<img src="images/main-2.png" alt="Train with TrainingPeaks" width="990" height="450"/>
+	</div>
+</div>
+<a href="#" id="prev" title="Show previous"></a>
+<a href="#" id="next" title="Show next"></a>
+</div>
+<!-- Below Carousel
+    ================================================== -->
+<div id="black-bar" class="col-lg-12">
+ what are<span class="highlight"> you </span>training for?
+</div>
+<!-- Main Content Area
+    ================================================== -->
+<div class="container main">
+<div class="row">
+	<div class="col-sm-12">
+		<h3>At TrainingPeaks, we believe there is a right way to train for an endurance event.</h3>
+		 It starts with having a clear goal, finding expert instruction, performing structured training and receiving immediate feedback throughout the process. Our eco-system of web, mobile and desktop products will help guide you on your journey. Results start here.
+	</div>
+	<!-- /.col-lg-12 -->
+</div>
+<!-- /.row -->
+<div class="row">
+	<div class="col-sm-8">
+		<figure id="homeVideoContainer">
+		<div class="fluid-width-video-wrapper">
+			<iframe allowfullscreen="" src="//www.youtube.com/embed/fvRYEv9KDkU?autohide=1&amp;color=white&amp;theme=light&amp;iv_load_policy=3&amp;modestbranding=1&amp;rel=0&amp;showinfo=0" id="fitvid424733">
+			</iframe>
+		</div>
+		</figure>
+	</div>
+	<!-- /.col-lg-8 -->
+	<div class="col-sm-4 headers">
+		<ul>
+			<li class="header"><a href="#">Header one</a></li>
+			<li class="header"><a href="#">Header two</a></li>
+			<li class="header"><a href="#">Header three</a></li>
+			<li class="header"><a href="#">Header four</a></li>
+			<li class="header"><a href="#">Header five</a></li>
+			<li class="header"><a href="#">Header six</a></li>
+		</ul>
+	</div>
+	<!-- /.col-lg-4 -->
+</div>
+<!-- /.row -->
+<!-- FOOTER -->
+<footer>
+<p class="pull-right">
+	<a href="#">Back to top</a>
+</p>
+<p>
+	 &copy; TrainingPeaks &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+</p>
+</footer>
+</div>
+<!-- /.container -->
+<!-- JAVASCRIPT -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery.carouFredSel-6.2.1.js" type="text/javascript"></script>
+<script type="text/javascript">
+// Initialize Carousel 
+$(function() {
+	$('#carousel').carouFredSel({
+		circular: true,
+		width: '100%',
+		items: {
+			visible: 3,
+			start: -1,
+			width: 990,
+			height: 450,
+			minimum: 3
+		},
+		scroll: {
+			items: 1,
+			duration: 1000,
+			timeoutDuration: 3000,
+		},
+		prev: '#prev',
+		next: '#next',
+	});
+});
+//adds blue background to .sub-nav arrow on hover
+jQuery(window).load(function() {
+	$('.sub-nav li:first-child a').mouseover(function() {
+		$('.arrow-up').addClass('hovered');
+	});
+	$('.sub-nav li:first-child a').mouseout(function() {
+		$('.arrow-up').removeClass('hovered');
+	});
+});
+</script>
+</body>
+</html>
